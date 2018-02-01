@@ -24,11 +24,29 @@
                                         <label alignment="left" text="Flight123" id="jqC-BX-YEL">
                                             <color key="textColor" red="0.89776400860000005" green="0.26233233010000001" blue="0.20653922790000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                         </label>
-                                        <label alignment="left" text="Label" id="U1O-sx-xdr"/>
+                                        <label alignment="left" text="MEL to SFO" id="U1O-sx-xdr"/>
                                     </items>
                                 </group>
                             </items>
                             <edgeInsets key="margins" left="0.0" right="0.0" top="6" bottom="0.0"/>
+                        </group>
+                        <group width="1" alignment="left" layout="vertical" spacing="0.0" id="znB-dZ-kk5">
+                            <items>
+                                <label alignment="left" text="AA123 Boards" id="Rm6-m2-GA7"/>
+                                <label alignment="left" text="15:06" id="Dwe-dK-Drv">
+                                    <color key="textColor" red="0.89776400860000005" green="0.26233233010000001" blue="0.20653922790000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                    <fontDescription key="font" type="system" pointSize="54"/>
+                                </label>
+                                <label alignment="left" text="On time" id="V5T-KR-Kak">
+                                    <color key="textColor" red="0.015686274509803921" green="0.87058823529411766" blue="0.44313725490196076" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                </label>
+                                <group width="1" alignment="left" id="9ud-6O-bo4">
+                                    <items>
+                                        <label alignment="left" text="Gate 1A" id="INa-oW-Pg5"/>
+                                        <label alignment="right" text="Seat 64A" id="1xS-R8-soS"/>
+                                    </items>
+                                </group>
+                            </items>
                         </group>
                     </items>
                 </controller>
