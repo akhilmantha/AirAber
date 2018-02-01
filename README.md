@@ -1,6 +1,6 @@
 #  AirAber
 
-## watchOS 4 Tutorial Part 1 Starter
+## watchOS 4
 
 This is the iOS app: it doesn't do anything.
 
