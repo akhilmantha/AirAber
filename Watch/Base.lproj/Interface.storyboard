@@ -12,7 +12,7 @@
         <!--Flight-->
         <scene sceneID="0ys-ya-nBE">
             <objects>
-                <controller identifier="Flight" id="YoJ-Fk-GI5">
+                <controller identifier="Flight" id="YoJ-Fk-GI5" customClass="FlightInterfaceController" customModule="AirAber">
                     <items>
                         <group width="1" alignment="left" id="prM-4s-gmh">
                             <items>
@@ -49,6 +49,15 @@
                             </items>
                         </group>
                     </items>
+                    <connections>
+                        <outlet property="boardTimeLabel" destination="Dwe-dK-Drv" id="Esa-C7-lRC"/>
+                        <outlet property="boardingLabel" destination="Rm6-m2-GA7" id="4s4-bG-20r"/>
+                        <outlet property="flightLabel" destination="jqC-BX-YEL" id="ltB-e3-TDm"/>
+                        <outlet property="gateLabel" destination="INa-oW-Pg5" id="0ZK-qA-UPW"/>
+                        <outlet property="routeLabel" destination="U1O-sx-xdr" id="bIj-e3-VWB"/>
+                        <outlet property="seatLabel" destination="1xS-R8-soS" id="Q7h-gu-XvG"/>
+                        <outlet property="statusLabel" destination="V5T-KR-Kak" id="QVM-Vo-RmH"/>
+                    </connections>
                 </controller>
             </objects>
             <point key="canvasLocation" x="136" y="338"/>
