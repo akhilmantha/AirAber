@@ -19,6 +19,7 @@
 		6AA2480420242987009EAEC4 /* FlightInterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AA2480320242987009EAEC4 /* FlightInterfaceController.swift */; };
 		6AA2480520242987009EAEC4 /* FlightInterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AA2480320242987009EAEC4 /* FlightInterfaceController.swift */; };
 		6AA248062024466B009EAEC4 /* Flight.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B8FA27F1B724A9900B1E765 /* Flight.swift */; };
+		6AA2480920245287009EAEC4 /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6A535F3D20230DCF00ED9277 /* Interface.storyboard */; };
 		7B8FA23D1B72275A00B1E765 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B8FA23C1B72275A00B1E765 /* AppDelegate.swift */; };
 		7B8FA23F1B72275A00B1E765 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B8FA23E1B72275A00B1E765 /* ViewController.swift */; };
 		7B8FA2421B72275A00B1E765 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7B8FA2401B72275A00B1E765 /* Main.storyboard */; };
@@ -320,6 +321,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				6A535F5320230DCF00ED9277 /* Assets.xcassets in Resources */,
+				6AA2480920245287009EAEC4 /* Interface.storyboard in Resources */,
 				6A535F602023122D00ED9277 /* Flights.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
