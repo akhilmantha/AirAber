@@ -65,7 +65,30 @@
         <!--Schedule-->
         <scene sceneID="fp4-sx-TlG">
             <objects>
-                <controller identifier="Schedule" id="h1b-Zq-mdB"/>
+                <controller identifier="Schedule" id="h1b-Zq-mdB">
+                    <items>
+                        <table alignment="left" id="MyU-yV-vB3">
+                            <items>
+                                <tableRow identifier="FlighRow" id="s44-gV-0Bv">
+                                    <group key="rootItem" width="1" height="0.0" alignment="left" spacing="6" id="5gd-Mf-ZZY">
+                                        <items>
+                                            <separator height="1" heightAdjustment="-4" alignment="left" verticalAlignment="center" id="g7V-sw-EAL">
+                                                <color key="color" red="0.98039215686274506" green="0.066666666666666666" blue="0.30980392156862746" alpha="1" colorSpace="calibratedRGB"/>
+                                            </separator>
+                                            <group width="1" height="32" alignment="left" spacing="4" id="PKF-Ok-gqf"/>
+                                            <label alignment="left" text="MEL" id="BXh-cG-41x">
+                                                <fontDescription key="font" type="system" weight="semibold" pointSize="20"/>
+                                            </label>
+                                            <imageView width="24" height="20" alignment="center" verticalAlignment="center" image="Plane" id="YDb-NR-mlr">
+                                                <color key="tintColor" red="0.98039215690000003" green="0.066666666669999999" blue="0.30980392159999998" alpha="1" colorSpace="calibratedRGB"/>
+                                            </imageView>
+                                        </items>
+                                    </group>
+                                </tableRow>
+                            </items>
+                        </table>
+                    </items>
+                </controller>
             </objects>
             <point key="canvasLocation" x="374" y="339"/>
         </scene>
