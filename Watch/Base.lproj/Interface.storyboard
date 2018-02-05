@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder.WatchKit.Storyboard" version="3.0" toolsVersion="13771" targetRuntime="watchKit" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="YoJ-Fk-GI5">
+<document type="com.apple.InterfaceBuilder.WatchKit.Storyboard" version="3.0" toolsVersion="13771" targetRuntime="watchKit" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="h1b-Zq-mdB">
     <device id="watch42" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
@@ -61,6 +61,13 @@
                 </controller>
             </objects>
             <point key="canvasLocation" x="136" y="338"/>
+        </scene>
+        <!--Schedule-->
+        <scene sceneID="fp4-sx-TlG">
+            <objects>
+                <controller identifier="Schedule" id="h1b-Zq-mdB"/>
+            </objects>
+            <point key="canvasLocation" x="374" y="339"/>
         </scene>
     </scenes>
 </document>
