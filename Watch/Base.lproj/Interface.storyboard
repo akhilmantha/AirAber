@@ -62,10 +62,10 @@
             </objects>
             <point key="canvasLocation" x="136" y="338"/>
         </scene>
-        <!--Schedule-->
+        <!--Air Aber-->
         <scene sceneID="fp4-sx-TlG">
             <objects>
-                <controller identifier="Schedule" id="h1b-Zq-mdB">
+                <controller identifier="Schedule" title="Air Aber" id="h1b-Zq-mdB" customClass="ScheduleInterfaceController" customModule="AirAber">
                     <items>
                         <table alignment="left" id="MyU-yV-vB3">
                             <items>
@@ -90,6 +90,16 @@
                                                             </label>
                                                         </items>
                                                     </group>
+                                                    <group width="1" alignment="left" id="efo-3R-yyU">
+                                                        <items>
+                                                            <label alignment="left" verticalAlignment="bottom" text="AA123" id="bNd-XA-ydY">
+                                                                <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                            </label>
+                                                            <label alignment="right" verticalAlignment="bottom" text="On time" id="ThR-YF-uOM">
+                                                                <color key="textColor" red="0.015686274509803921" green="0.87058823529411766" blue="0.44313725490196076" alpha="1" colorSpace="calibratedRGB"/>
+                                                            </label>
+                                                        </items>
+                                                    </group>
                                                 </items>
                                             </group>
                                         </items>
@@ -98,6 +108,9 @@
                             </items>
                         </table>
                     </items>
+                    <connections>
+                        <outlet property="flightsTable" destination="MyU-yV-vB3" id="Rn1-x7-8d9"/>
+                    </connections>
                 </controller>
             </objects>
             <point key="canvasLocation" x="374" y="339"/>
