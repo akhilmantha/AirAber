@@ -12,7 +12,7 @@
         <!--Flight-->
         <scene sceneID="0ys-ya-nBE">
             <objects>
-                <controller identifier="Flight" id="YoJ-Fk-GI5" customClass="FlightInterfaceController" customModule="AirAber">
+                <controller identifier="Flight" id="YoJ-Fk-GI5" customClass="FlightInterfaceController" customModule="Watch_Extension">
                     <items>
                         <group width="1" alignment="left" id="prM-4s-gmh">
                             <items>
@@ -65,11 +65,11 @@
         <!--Air Aber-->
         <scene sceneID="fp4-sx-TlG">
             <objects>
-                <controller identifier="Schedule" title="Air Aber" id="h1b-Zq-mdB" customClass="ScheduleInterfaceController" customModule="AirAber">
+                <controller identifier="Schedule" title="Air Aber" id="h1b-Zq-mdB" customClass="ScheduleInterfaceController" customModule="Watch_Extension">
                     <items>
                         <table alignment="left" id="MyU-yV-vB3">
                             <items>
-                                <tableRow identifier="FlighRow" id="s44-gV-0Bv" customClass="FlightRowController" customModule="AirAber">
+                                <tableRow identifier="FlighRow" id="s44-gV-0Bv" customClass="FlightRowController" customModule="Watch_Extension">
                                     <group key="rootItem" width="1" height="0.0" alignment="left" spacing="6" id="5gd-Mf-ZZY">
                                         <items>
                                             <separator height="1" heightAdjustment="-4" alignment="left" verticalAlignment="center" id="5Ox-6A-tpz">
@@ -121,7 +121,7 @@
                     </connections>
                 </controller>
             </objects>
-            <point key="canvasLocation" x="374" y="339"/>
+            <point key="canvasLocation" x="-186" y="339"/>
         </scene>
     </scenes>
 </document>
