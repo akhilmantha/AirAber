@@ -26,6 +26,14 @@ class FlightRowController: NSObject {
       destinationLabel.setText(flight.destination)
       flightNumberLabel.setText(flight.number)
       
+      if flight.onSchedule {
+        statusLabel.setText("On time")
+      }
+      else{
+        statusLabel.setText("Delayed")
+        statusLabel.setTextColor(.red)
+      }
+      
       
     }
     

@@ -69,7 +69,7 @@
                     <items>
                         <table alignment="left" id="MyU-yV-vB3">
                             <items>
-                                <tableRow identifier="FlighRow" id="s44-gV-0Bv">
+                                <tableRow identifier="FlighRow" id="s44-gV-0Bv" customClass="FlightRowController" customModule="AirAber">
                                     <group key="rootItem" width="1" height="0.0" alignment="left" spacing="6" id="5gd-Mf-ZZY">
                                         <items>
                                             <separator height="1" heightAdjustment="-4" alignment="left" verticalAlignment="center" id="5Ox-6A-tpz">
@@ -104,6 +104,14 @@
                                             </group>
                                         </items>
                                     </group>
+                                    <connections>
+                                        <outlet property="destinationLabel" destination="rJM-sn-bRm" id="b9r-Fh-GNO"/>
+                                        <outlet property="flightNumberLabel" destination="bNd-XA-ydY" id="Fwk-ls-lrn"/>
+                                        <outlet property="originLabel" destination="I0Z-9S-e2D" id="ZAN-jj-oQM"/>
+                                        <outlet property="planeImage" destination="2sI-Q7-uRC" id="fRJ-pv-QXm"/>
+                                        <outlet property="separator" destination="5Ox-6A-tpz" id="pzz-mH-fMM"/>
+                                        <outlet property="statusLabel" destination="ThR-YF-uOM" id="rx3-bm-pBT"/>
+                                    </connections>
                                 </tableRow>
                             </items>
                         </table>
